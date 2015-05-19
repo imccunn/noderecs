@@ -1,0 +1,17 @@
+{
+  "name": "noderecs",
+  "version": "0.1.0",
+  "description": "Simple node recipes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "node server.js"
+  },
+  "author": "Ian McCunn",
+  "license": "MIT",
+  "devDependencies": {
+    "split2": "^0.2.1",
+    "stream-combiner2": "^1.0.2",
+    "through2": "^0.6.5"
+  }
+}
