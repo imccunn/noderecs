@@ -11,8 +11,8 @@ function acquireSSL(fileLocation) {
     data = fs.readFileSync(fileLocation); 
     return data;
   } catch(e) {
-    console.log('pem not found');
-    return 0;
+    console.log('Error: ', e);
+    return;
   }
 }
 
