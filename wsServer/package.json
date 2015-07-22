@@ -16,5 +16,8 @@
     "serve-index": "^1.7.0",
     "webpack": "^1.10.0",
     "ws": "^0.7.2"
+  },
+  "dependencies": {
+    "websocket": "^1.0.19"
   }
 }
